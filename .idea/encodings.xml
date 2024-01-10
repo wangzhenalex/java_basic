@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/java-SPI-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-SPI-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-SPI-log-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-SPI-log-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-SPI-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-SPI-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_SPI/java_SPI_plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_SPI/java_SPI_plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_SPI/java_SPI_plugin_log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_SPI/java_SPI_plugin_log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_SPI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_SPI/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
