@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="java-SPI-plugin" />
         <module name="java-SPI-log-plugin" />
+        <module name="curator-zk" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
