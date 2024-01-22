@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/curator-zk/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/curator-zk/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/es7-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/es7-springboot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-SPI-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-SPI-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-SPI-log-plugin/src/main/java" charset="UTF-8" />
