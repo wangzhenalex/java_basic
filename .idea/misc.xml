@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/java-SPI-client/pom.xml" />
         <option value="$PROJECT_DIR$/curator-zk/pom.xml" />
         <option value="$PROJECT_DIR$/es7-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-springboot/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
