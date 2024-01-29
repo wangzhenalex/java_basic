@@ -39,33 +39,4 @@ public class RedisTemplateConfiguration {
         redisTemplate.afterPropertiesSet();
         return redisTemplate;
     }
-
-    @Bean
-    public CacheManager cacheManager1m(LettuceConnectionFactory factory){
-        //加载默认Spring Cache配置信息
-        RedisCacheConfiguration config = RedisCacheConfiguration.defaultCacheConfig();
-        //设置有效期为1小时
-        config = config.entryTtl(Duration.ofMinutes(1));
-        //说明缓存Key使用单冒号进行分割
-        config = config.computePrefixWith(cacheName -> cacheName + ":");
-        //Redis Key采用String直接存储
-        config = config.serializeKeysWith(RedisSerializationContext.SerializationPair.fromSerializer(new StringRedisSerializer()));
-        //Redis Value则将对象采用JSON形式存储
-        config = config.serializeValuesWith(RedisSerializationContext.SerializationPair.fromSerializer(new GenericJackson2JsonRedisSerializer()));
-        //不缓存Null值对象
-        config = config.disableCachingNullValues();
-
-        //实例化CacheManger缓存管理器
-        RedisCacheManager cacheManager = RedisCacheManager.RedisCacheManagerBuilder
-                //绑定REDIS连接工厂
-                .fromConnectionFactory(factory)
-                //绑定配置对象
-                .cacheDefaults(config)
-                //与声明式事务注解@Transactional进行兼容
-                .transactionAware()
-                //完成对象构建
-                .build();
-        return cacheManager;
-
-    }
 }
