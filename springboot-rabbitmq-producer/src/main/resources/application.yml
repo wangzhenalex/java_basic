@@ -1,0 +1,15 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    virtual-host: /test
+    stream:
+      username: guest
+      password: guest
+    connection-timeout: 1000ms
+
+    # producer
+    publisher-confirm-type: correlated
+    publisher-returns: true
+    template:
+      mandatory: true

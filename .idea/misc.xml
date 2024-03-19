@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/demo-rabbitmq" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -11,7 +14,15 @@
         <option value="$PROJECT_DIR$/curator-zk/pom.xml" />
         <option value="$PROJECT_DIR$/es7-springboot/pom.xml" />
         <option value="$PROJECT_DIR$/redis-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-consumer/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/demo-rabbitmq/pom.xml" />
+      </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
