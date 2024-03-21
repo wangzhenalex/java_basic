@@ -1,7 +1,6 @@
-package org.example;
+package org.example.jdkProxy;
 
 import java.util.Map;
-import org.example.Plugin;
 
 public class LogPlugin implements Plugin{
     @Override

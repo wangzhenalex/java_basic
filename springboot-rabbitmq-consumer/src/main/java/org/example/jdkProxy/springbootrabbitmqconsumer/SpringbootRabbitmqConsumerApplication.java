@@ -1,13 +1,13 @@
-package org.example.springbootrabbitmqproducer;
+package org.example.jdkProxy.springbootrabbitmqconsumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootRabbitmqProducerApplication {
+public class SpringbootRabbitmqConsumerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootRabbitmqProducerApplication.class, args);
+        SpringApplication.run(SpringbootRabbitmqConsumerApplication.class, args);
     }
 
 }

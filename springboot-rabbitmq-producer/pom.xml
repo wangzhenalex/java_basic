@@ -59,7 +59,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>org.example.springbootrabbitmqproducer.SpringbootRabbitmqProducerApplication</mainClass>
+                    <mainClass>org.example.jdkProxy.springbootrabbitmqproducer.SpringbootRabbitmqProducerApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

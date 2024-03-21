@@ -1,7 +1,6 @@
-package org.example.springbootrabbitmqconsumer;
+package org.example.jdkProxy.springbootrabbitmqconsumer;
 
 import com.rabbitmq.client.Channel;
-import org.example.springbootrabbitmqproducer.Employee;
 import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.amqp.support.AmqpHeaders;
 import org.springframework.messaging.handler.annotation.Headers;

@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/demo-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq-producer/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

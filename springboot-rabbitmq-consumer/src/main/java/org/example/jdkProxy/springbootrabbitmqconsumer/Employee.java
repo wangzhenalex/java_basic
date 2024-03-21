@@ -1,4 +1,4 @@
-package org.example.springbootrabbitmqproducer;
+package org.example.jdkProxy.springbootrabbitmqconsumer;
 
 import java.io.Serializable;
 
