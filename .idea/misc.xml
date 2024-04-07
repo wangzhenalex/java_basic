@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/demo-rabbitmq" />
+    <file type="web" url="file://$PROJECT_DIR$/stub-demo-aop" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -19,6 +20,8 @@
         <option value="$PROJECT_DIR$/springboot-rabbitmq-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/proxy/pom.xml" />
         <option value="$PROJECT_DIR$/multi-thread-concurrency/pom.xml" />
+        <option value="$PROJECT_DIR$/payment-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/stub-demo-aop-1/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

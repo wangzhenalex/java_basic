@@ -21,6 +21,8 @@
     <file url="file://$PROJECT_DIR$/java_SPI/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/multi-thread-concurrency/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/multi-thread-concurrency/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/proxy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/proxy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/redis-springboot/src/main/java" charset="UTF-8" />
@@ -29,5 +31,7 @@
     <file url="file://$PROJECT_DIR$/springboot-rabbitmq-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-rabbitmq-producer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-rabbitmq-producer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stub-demo-aop-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stub-demo-aop-1/src/main/resources" charset="UTF-8" />
   </component>
 </project>

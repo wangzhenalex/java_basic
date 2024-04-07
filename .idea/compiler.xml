@@ -11,6 +11,7 @@
         <module name="springboot-rabbitmq-consumer" />
         <module name="java-SPI-log-plugin" />
         <module name="springboot-rabbitmq-producer" />
+        <module name="stub-demo-aop-1" />
         <module name="es7-springboot" />
         <module name="redis-springboot" />
         <module name="curator-zk" />
@@ -23,6 +24,7 @@
       <module name="java_SPI" target="17" />
       <module name="java_SPI_plugin" target="17" />
       <module name="java_SPI_plugin_log" target="17" />
+      <module name="payment-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
